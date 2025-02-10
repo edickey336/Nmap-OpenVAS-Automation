@@ -1,0 +1,20 @@
+# Required Libraries and Software for Nmap-OpenVAS Automation
+#Core dependencies
+python-nmap==0.7.1          # Python library for Nmap
+python-gvm==23.6.1          # Python library for OpenVAS/GVM (Greenbone Vulnerability Manager)
+requests==2.31.0            # For making HTTP requests (if needed)
+lxml==4.9.3                 # For XML parsing (used by python-gvm)
+
+# Additional utilities
+pandas==2.1.1               # For data manipulation (if you're processing scan results)
+numpy==1.25.2               # For numerical operations (if needed)
+prettytable==3.8.0          # For displaying results in a clean table format
+
+# Development dependencies (optional)
+pytest==7.4.2               # For running tests
+black==23.9.1               # For code formatting
+flake8==6.1.0               # For linting
+
+# You need to install the following software manually:
+- Nmap: https://nmap.org/
+- OpenVAS: https://www.openvas.org/
